@@ -54,5 +54,9 @@ if a == 9:
    sock = input('Sockets: ')
 if a == 9:
     os.system('python3 SlowLoris.py  ' + ip + ' -s  ' + sock)
-if a > 9:
+if a == 10:
+    os.system('./UDPDosser.py  ')
+if a == 11:
+    os.system('./DorkingScriptConsole.py ')
+if a > 11:
     print('[!] Selection Error')

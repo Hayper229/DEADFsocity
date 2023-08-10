@@ -28,6 +28,8 @@ print('''[+] 1 Dos Requests response on tls 1-3 and http
 [+] 7 Parser
 [+] 8 PNum
 [+] 9 SlowLoris 
+[+] 10 UDPDosser UDP, TCP, TLSv1.1, TLSv1.2, TLSv1.3
+[+] 11 DorkingScriptConsole   Finding directories and files
 ''')
 
 

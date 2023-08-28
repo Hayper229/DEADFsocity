@@ -18,6 +18,8 @@ os.system('pip install time ')
 os.system('pip install random ')
 os.system('pip install colorama')  
 os.system('pip install phonenumbers')
+os.system('pip install python-whois')
+os.system('pip install dnspython')
 #
 os.system('pip3 install scapy-python3 ')
 os.system('pip3 install socket ')

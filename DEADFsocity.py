@@ -25,11 +25,13 @@ print('''[+] 1 Dos Requests response on tls 1-3 and http
 [+] 4 source ip address site 
 [+] 5 Sniffer 
 [+] 6 Scanner 
-[+] 7 Parser
+[+] 7 Parser 
 [+] 8 PNum
-[+] 9 SlowLoris 
-[+] 10 UDPDosser UDP, TCP, TLSv1.1, TLSv1.2, TLSv1.3
-[+] 11 DorkingScriptConsole   Finding directories and files
+[+] 9 UDPDosser UDP, TCP, TLSv1.1, TLSv1.2, TLSv1.3
+[+] 10 DorkingScriptConsole   Finding directories and files
+[+] 11 PHParser  
+[+] 12 DNSinfo 
+[+] 13 Whois
 ''')
 
 
@@ -52,13 +54,14 @@ if a == 7:
 if a == 8:
     os.system('./ph.py')
 if a == 9:
-   ip = input('IP: ')
-   sock = input('Sockets: ')
-if a == 9:
-    os.system('python3 SlowLoris.py  ' + ip + ' -s  ' + sock)
-if a == 10:
     os.system('./UDPDosser.py  ')
-if a == 11:
+if a == 10:
     os.system('./DorkingScriptConsole.py ')
-if a > 11:
+if a == 11:
+    os.system('./parser.php')
+if a == 12:
+     os.system('./dnsinfo.py')
+if a == 13:
+      os.system('./whois_info.py')
+if a > 13:
     print('[!] Selection Error')

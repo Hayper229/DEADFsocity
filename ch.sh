@@ -14,6 +14,7 @@ chmod +x DEADFsocity.py
 chmod +x DorkingScriptConsole.py
 chmod +x DosFM.py
 chmod +x Rdos.py
+chmod +x osint.py
 chmod +x TCPflood.py
 chmod +x UDPDosser.py
 chmod +x dnsinfo.py

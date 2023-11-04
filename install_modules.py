@@ -20,6 +20,7 @@ os.system('pip install colorama')
 os.system('pip install phonenumbers')
 os.system('pip install python-whois')
 os.system('pip install dnspython')
+os.system('pip install discosub')
 #
 os.system('pip3 install scapy-python3 ')
 os.system('pip3 install socket ')
@@ -28,4 +29,6 @@ os.system('pip3 install time ')
 os.system('pip3 install random ')
 os.system('pip3 install colorama') 
 os.system('pip3 install phonenumbers')
+os.system('pip3 install discosub')
+
 #

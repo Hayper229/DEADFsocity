@@ -37,31 +37,17 @@ print('''[+] 1 Dos Requests response on tls 1-3 and http
 
 a = int(input('Enter: '))
 
-if a == 1:
-  os.system('./Rdos.py')
-if a == 2:
-    os.system('./DosFM.py')
-if a == 3:
-   os.system('./TCPflood.py')
-if a == 4:
-    os.system('./osint.py')
-if a == 5:
-    os.system('./sniff.py')
-if a == 6:
-    os.system('./scanner.py')
-if a == 7:
-    os.system('./pars.py')
-if a == 8:
-    os.system('./ph.py')
-if a == 9:
-    os.system('./UDPDosser.py  ')
-if a == 10:
-    os.system('./DorkingScriptConsole.py ')
-if a == 11:
-    os.system('./parser.php')
-if a == 12:
-     os.system('./dnsinfo.py')
-if a == 13:
-      os.system('./whois_info.py')
-if a > 13:
-    print('[!] Selection Error')
+if a == 1:os.system('./Rdos.py')
+if a == 2:os.system('./DosFM.py')
+if a == 3:os.system('./TCPflood.py')
+if a == 4:os.system('./osint.py')
+if a == 5:os.system('./sniff.py')
+if a == 6:os.system('./scanner.py')
+if a == 7:os.system('./pars.py')
+if a == 8:os.system('./ph.py')
+if a == 9:os.system('./UDPDosser.py  ')
+if a == 10:os.system('./DorkingScriptConsole.py ')
+if a == 11:os.system('./parser.php')
+if a == 12:os.system('./dnsinfo.py')
+if a == 13:os.system('./whois_info.py')
+if a > 13:print('[!] Selection Error')
